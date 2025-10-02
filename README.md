@@ -32,7 +32,7 @@ Kelas : TI.24.A.4
 
 # 3. Menambahkan inline CSS
 
-  Inline CSS ditulis langsung di dalam tag HTML menggunakan atribut ```style```. Contohnya seperti ```<p style="text-align: center; color: #ccd8e4;">```. Inline CSS berlaku pada satu elemene tempat ditulis. Misalnya, memberi warna pada satu paragraf. 
+  Inline CSS ditulis langsung di dalam tag HTML menggunakan atribut ```style```. Contohnya seperti <p style="text-align: center; color: #ccd8e4;">. Inline CSS berlaku pada satu elemene tempat ditulis. Misalnya, memberi warna pada satu paragraf. 
 
   <img width="594" height="68" alt="Screenshot 2025-10-02 221045" src="https://github.com/user-attachments/assets/7fb76afc-59f8-4a90-8157-a757561d6cb8" />
 
@@ -43,7 +43,7 @@ Kelas : TI.24.A.4
 
 # 4. Membuat CSS eksternal 
 
-      Membuat file baru dengan nama ```style_eksternal.css``` lalu dihubungkan ke HTML dengan tag ```<link>``` dibagian ```<head>``` dengan ini tampilan HTML akan mengikuti aturan dari file CSS Eksternal. 
+      Membuat file baru dengan nama ```style_eksternal.css```. lalu dihubungkan ke HTML dengan tag <link>,  dibagian <head>, dengan ini tampilan HTML akan mengikuti aturan dari file CSS Eksternal. 
 
    <img width="422" height="272" alt="Screenshot 2025-10-02 221935" src="https://github.com/user-attachments/assets/cb22b8b1-9c14-411b-a93e-0ffc9d0f2bc7" />
 
@@ -51,4 +51,14 @@ Kelas : TI.24.A.4
 
  <img width="422" height="272" alt="Screenshot 2025-10-02 221935" src="https://github.com/user-attachments/assets/5e461d39-d847-4ea8-a580-19cc4b558e2b" />
 
- 
+ # 5. Meenambahkan CSS selector 
+
+    CSS Selector digunakan untuk memilih elemen HTML yang ingin diatur tampilannya.
+     * ID selector (#id), hanya beelaku untuk satu elemen dengan id tertentu.
+     * Class selector (.class), bisa dipakai dibanyak elemen. 
+
+   <img width="505" height="422" alt="Screenshot 2025-10-02 223804" src="https://github.com/user-attachments/assets/f0c8b2a5-dacc-42c0-a4b1-7bbf0d3b33e5" />
+
+     Berikut Hasil pada Browser 
+
+<img width="1358" height="481" alt="Screenshot 2025-10-02 223849" src="https://github.com/user-attachments/assets/e82bbf36-9c18-4aff-9e38-1c9408d73aee" />
